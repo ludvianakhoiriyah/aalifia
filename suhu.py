@@ -1,5 +1,5 @@
 # =========================
-# utils.py
+# suhu.py
 # Modul konversi suhu
 # =========================
 import suhu
