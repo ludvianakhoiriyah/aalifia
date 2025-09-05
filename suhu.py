@@ -1,10 +1,10 @@
 # =========================
 # utils.py
-# Modul konverensi suhu
+# Modul konversi suhu
 # =========================
 import suhu
 
-def konverensi_suhu(nilai, dari, ke):
+def konversi_suhu(nilai, dari, ke):
   nilai = float(nilai)
 
   dari = dari.lower()
