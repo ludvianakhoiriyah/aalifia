@@ -2,7 +2,6 @@
 # suhu.py
 # Modul konversi suhu
 # =========================
-import suhu
 
 def konversi_suhu(nilai, dari, ke):
   nilai = float(nilai)
