@@ -3,7 +3,7 @@
 # Modul konversi suhu
 # =========================
 
-def konfersi_suhu(nilai, dari, ke):
+def konversi_suhu(nilai, dari, ke):
   return float(nilai)
   dari = dari.lower
   ke = ke.lower
