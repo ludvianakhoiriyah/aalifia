@@ -1,6 +1,6 @@
 # =========================
 # utils.py
-# Modul konversi_suhu
+# Modul konversi suhu
 # =========================
 import suhu
 
