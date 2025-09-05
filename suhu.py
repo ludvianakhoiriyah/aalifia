@@ -4,13 +4,13 @@
 # =========================
 
 def konversi_suhu(nilai, dari, ke):
-  return float(nilai)
-  dari = dari.lower
-  ke = ke.lower
+  nilai = float(nilai)
+  dari = dari.lower()
+  ke = ke.lower()
 
-  if dari not in ke ('C','F', 'K'):
-    return "Eror: satuan asal tidak valid, gunakann C, F, atau K"
-  if ke not in ke ('C','F', 'K'):
+  if dari not in ['c','f','k']:
+    return "Eror: satuan asal tidak valid, gunakann c, f, atau k"
+  if ke not in ['c','f','k']:
     return "Eror: satuan tujuan tidak valid, gunakann C, F, atau K"
 
   if dari == 'c':
@@ -35,7 +35,7 @@ def konversi_suhu(nilai, dari, ke):
     elif ke == 'f':
       return (nilai - 273.15) * 9/5 + 32
     else:
-      return nilai 
+      return nilai
 
   if ke == 'k' and hasil < 0:
     return "Eror: nilai suhu tidak valid"
