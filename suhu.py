@@ -17,27 +17,29 @@ def konversi_suhu(nilai, dari, ke):
 
   if dari == 'c':
     if ke == 'f':
-      return nilai * 9/5 + 32
+      return hasil = nilai * 9/5 + 32
     elif ke == 'k':
-      return nilai + 273.15
+      return hasil = nilai + 273.15
     else:
-      return nilai
+      return hasil = nilai
 
   if dari == 'f':
     if ke == 'c':
-      return (nilai - 32) * 5/9
+      return hasil = (nilai - 32) * 5/9
     elif ke == 'k':
-      return (nilai - 32) * 5/9 + 273.15
+      return hasil = (nilai - 32) * 5/9 + 273.15
     else:
-      return nilai
+      return hasil = nilai
 
   if dari == 'k':
     if ke == 'c':
-      return nilai - 273.15
+      return hasil = nilai - 273.15
     elif ke == 'f':
-      return (nilai - 273.15) * 9/5 + 32
+      return hasil = (nilai - 273.15) * 9/5 + 32
     else:
-      return nilai 
+      return hasil = nilai 
 
   if ke == 'k' and hasil < 0:
     return "Eror: nilai suhu tidak valid"
+
+return hasil
